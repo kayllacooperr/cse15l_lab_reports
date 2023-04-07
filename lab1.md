@@ -48,3 +48,4 @@ You can try commands such as the following in order to play around!
 * `ls -lat`
 * `ls -a'
 
+Now you're all set! Happy coding :D
