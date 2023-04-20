@@ -3,7 +3,7 @@
 
 >This page aims to explain how to log into a course-specific account (specifically ieng6)
 
-Step #1: __Download/Installl VScode__
+**Step #1: __Download/Installl VScode__**
 
 If you don't already, go to [VScode Download](https://code.visualstudio.com/download) to download
 VScode, make sure to download the version that corresponds to your operating system. Install VScode
@@ -16,7 +16,7 @@ Windows systems, but the MacOS should be easy to find.
 Open VScode, and type the command `Ctrl + Shift + P`. Type "Select Default Profile" and select
 Git Bash. Open a new terminal and it should load as a Git Bash terminal.
 
-Step #2: __Remotely Connecting__
+**Step #2: __Remotely Connecting__**
 
 Once you have successfully installed VScode and are able to open a Git Bash terminal, you'll want to sign in
 using the command `ssh` followed by your username. For CSE 15L, my command line looked like `$ ssh cs15lsp23pf@ieng6.ucsd.edu`.
@@ -34,7 +34,7 @@ address with the server's host. So type "yes" and you should (hopefully) receive
 
 Once you get a message like this, that means you have successfully connected to the server! Good job!
 
-Step #3: __Try Running Some Commands__
+**Step #3: __Try Running Some Commands__**
 
 In order to feel more comfortable, try running some basic commands in your terminal. For example, when I
 used the command `pwd` (used to print the full path name of the current directory, I received the following
@@ -43,13 +43,22 @@ output.
 ![Trying Commands](try_commands_tutorial.png)
 
 You can try commands such as the following in order to play around!
-Print Working Directory
+
+*Print Working Directory*
 * `pwd`
+
+
 ![pd example](pwd.png)
-List Directory Contents (+ all hidden files)
-* `ls -a`
+
 In my case listed the operating system, remote server, and the current folders/files.
+
+*List Directory Contents (+ all hidden files)*
+* `ls -a`
+
+
+
 ![l -a example](ls-a.png) 
-Lists all my current directory's (bash) contents
+
+Lists all my current directory's (bash) contents.
 
 Now you're all set! Happy coding :D
