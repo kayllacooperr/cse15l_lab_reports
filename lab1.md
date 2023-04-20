@@ -23,9 +23,11 @@ using the command `ssh` followed by your username. For CSE 15L, my command line 
 You'll then be prompted to enter your password, if this is the first time you are connecting to a specific server, you might 
 get a message similar to this:
 
+
 `The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+
 
 This is normal and expected for your first time, if this continues after logging in multiple times, there might be an issue that you should 
 address with the server's host. So type "yes" and you should (hopefully) receive a message along these lines:
