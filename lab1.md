@@ -59,7 +59,6 @@ In my case listed the operating system, remote server, and the current folders/f
 
 ![l -a example](ls-a.png) 
 
-
 Lists all my current directory's (bash) contents.
 
 Now you're all set! Happy coding :D
