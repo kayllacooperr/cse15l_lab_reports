@@ -1,7 +1,7 @@
-# Lab #2 Servers and Bugs
+## Lab #2 Servers and Bugs
 *April 24, 2023*
 
->Part 1: String Server
+> Part 1: String Server
 
 The following code block contains my StringServer.java code. The methods will open a web server and the user can add messages to the page by adding 
 `add-message?s=<Message>` to the URL
