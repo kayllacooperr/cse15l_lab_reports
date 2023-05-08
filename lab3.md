@@ -41,7 +41,7 @@ The `-L` command will print all files that do not have a match for the given inp
 were not found in 2/3 and 1/3 of their respective files. This would be extremely useful if you needed to search for
 files while avoiding a certain phrase or topic.
 
-. `-m <number>`
+. `grep -m <number>`
 
 ```
 $ grep -m 5 "treatment" DraftRecom-PDF.txt Session2-PDF.txt
