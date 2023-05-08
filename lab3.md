@@ -157,6 +157,7 @@ $ grep -y "as" journal.pbio.0020010.txt
         has been achieved since 1993, what promise is held out by the next ten years'!
 ```
 
+
 Apologies for the long outputs, but that's all thanks to the `-y` command! `-y` will allow grep to bypass
 case distinctions, allowing for more output. This is extremely useful for finding words/phrases in a file,
 despite if they are the first word in the sentence, or if the word is refering to a proper noun, and other
