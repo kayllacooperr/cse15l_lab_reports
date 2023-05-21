@@ -69,10 +69,11 @@ something legible. For instance, if you were searching a series of .txt files wh
 and you wanted to search for "DNA", it would be extremely helpful to limit the output to around 10-15 times,
 or else the terminal will be overrun with lines containing "DNA".
 
-> `grep -y`
+> `grep -i`
 
 ```
-$ grep -y "scientific" journal.pbio.0020001.txt
+$ grep -i "scientific" journal.pbio.0020001.txt
+         grep -i "scientific" journal.pbio.0020001.txt
         the world scientific community closer to each other (Annan 2003). Mr. Annan stressed the
         countries, asserting that “This unbalanced distribution of scientific activity generates
         serious problems not only for the scientific community in the developing countries, but for
@@ -91,7 +92,7 @@ $ grep -y "scientific" journal.pbio.0020001.txt
         assessing scientific productivity or technical advances (May 1997). More relevant
         1990 as a comparison, revealed that scientific publishing in Latin America increased the
         Other relative indicators of scientific productivity, such as the number of publications
-        21% of the amount invested in United States (RICYT 2002). Indeed, this scientific
+        21% of the amount invested in United States (RICYT 2002). Indeed, this scientific  
         of its resources in scientific research and development. Latin American investment in
         One potential explanation for the increase in scientific productivity in Latin America
         is that scientific development during the 1990s was particularly strong for many countries
@@ -102,11 +103,11 @@ $ grep -y "scientific" journal.pbio.0020001.txt
         scientific community? We used SCI 2001 data to examine the proportion of publications in
         the scientific output in the field of ecology in Latin America is having a relatively low
         impact in the international scientific community and is underrepresented in the top
-        Although there are outstanding scientific researchers in the developing world who
+        Although there are outstanding scientific researchers in the developing world who  
         independently are making important contributions to the international scientific community,
-        scientific mainstream of the developed regions. This is not to suggest any sort of
-        introducing novel research findings in multiple scientific forums. Funding these
-        The positive trends in scientific productivity in Latin America should not be
+        scientific mainstream of the developed regions. This is not to suggest any sort of 
+        introducing novel research findings in multiple scientific forums. Funding these   
+        The positive trends in scientific productivity in Latin America should not be      
         Annan. There are many compelling reasons for the push to increase scientific input from the
         dominated by two geographic regions. Many scientific problems could be solved much more
         readily with the cooperation and scientific insight of scientists from developing regions.
@@ -120,7 +121,7 @@ $ grep -y "scientific" journal.pbio.0020001.txt
 ```
 
 ```
-$ grep -y "as" journal.pbio.0020010.txt
+$  grep -i "as" journal.pbio.0020010.txt
         JSTOR is successful for reasons its founders did not intend. Bill Bowen's inspired
         vision was of a solution to libraries' ever-voracious demands for space to house paper
         volumes. The idea was that libraries could save space by removing volumes available in
@@ -158,7 +159,9 @@ $ grep -y "as" journal.pbio.0020010.txt
 ```
 
 
-Apologies for the long outputs, but that's all thanks to the `-y` command! `-y` will allow grep to bypass
+Apologies for the long outputs, but that's all thanks to the `-i` command! `-i` will allow grep to bypass
 case distinctions, allowing for more output. This is extremely useful for finding words/phrases in a file,
 despite if they are the first word in the sentence, or if the word is refering to a proper noun, and other
-similar cases. Now upper/lower cases will both be shown by grep when using the `-y` command.
+similar cases. Now upper/lower cases will both be shown by grep when using the `-i` command. I previous had used `-y`
+instead of `i-`, in the documentation it is said that `-y` is an obselete synonym for the `-i` command, and when I played
+around with it, the `-i` command actually added some lines that the `-y` did not output!
