@@ -41,7 +41,6 @@ the run command being in the third line.
 
 ## Step 9: Commit and Push the Changes.
 
-![Step 9](step9_lab4.png)
+![Step 9](step9_new.png)
 Keys Used: `git add . <enter> git commit -m "Updated! <enter> git push`
-My `git push` was not working, and said that I did not have permission to push my changes. I assume I'm attempting to push to the original repository rather than my clone, but I'm not sure how to fix it.
-I posted my issue on EdStem, and if I gets answered before the due date for this lab, then I will return and update this step with the reason why it wasn't working.
+Using the above commands, I added my changes to the index, committed them with the message "Updated (hopefully)" and then pushed my changes. 
